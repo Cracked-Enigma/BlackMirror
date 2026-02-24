@@ -215,14 +215,3 @@ BlackMirror provides a controlled environment to practice all of these.
 Built for personal Android security research and skill sharpening.
 
 ---
-
-If you’d like, next we can also add:
-
-* `.gitignore` tuned for Android + NDK
-* folder tree
-* sample exploit folder
-* writeup template
-
-Just tell me.
-
-You’re doing this the right way.
