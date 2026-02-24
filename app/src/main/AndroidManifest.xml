@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="com.blackmirror"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:label="BlackMirror"
+        android:allowBackup="true"
+        android:extractNativeLibs="true"
+        android:supportsRtl="true">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+
+        </activity>
+
+        <service
+            android:name=".SecretService"
+            android:exported="true"/>
+
+        <provider
+            android:name=".NotesProvider"
+            android:authorities="com.blackmirror.notes"
+            android:exported="true"/>
+
+    </application>
+
+</manifest>
